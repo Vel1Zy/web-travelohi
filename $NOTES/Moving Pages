@@ -1,0 +1,4 @@
+const { id } = useParams<{ id: string }>(); 
+
+
+useParams to get the id from the URL.

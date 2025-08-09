@@ -1,0 +1,6 @@
+const token = getJWTFromCookie();
+      await axios.post(`http://localhost:8080/users/${id}/ban`, {}, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });

@@ -1,0 +1,17 @@
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  try {
+    await axios.patch(`http://localhost:8080/promos/${idTemp}`, {
+
+    // GUNAKAN INI
+      promoName: promo.promoName,
+      promoCode: promo.promoCode,
+      startFrom: promo.startFrom,
+      endAt: promo.endAt
+    });
+    alert("Promo updated successfully");
+  } catch (error) {
+    console.error("Error updating promo:", error);
+    alert("Error updating promo");
+  }
+};

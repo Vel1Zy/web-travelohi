@@ -1,0 +1,6 @@
+type tySurvey struct {
+   Id   int64  `json:"id,string,omitempty"`
+   Name string `json:"name,omitempty"`
+}
+
+pakai `json:"id,string,omitempty"` buat data int yang bisa terima string jadi angka
