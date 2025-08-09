@@ -1,4 +1,4 @@
-# Travelohi ✈️
+# Travelohi ✈️ (MARCH, 2024)
 
 Travelohi is a web application inspired by the popular travel booking platform, Traveloka. This project serves as a full-stack development exercise, integrating a Go (Golang) backend with a React frontend.
 
